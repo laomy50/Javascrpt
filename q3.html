@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Operations</title>
+</head>
+<body>
+	<!-- website that perform operations -->
+	<!-- inner css -->
+	<div class="container" style="display: flex;">
+		<!-- declarations of buttons with their functionality -->
+		<div>
+			<button onclick="add()">ADD</button>
+		</div>
+		<div>
+			<button onclick="sub()">SUB</button>
+		</div>
+		<div>
+			<button onclick="multy()">MULTY</button>
+		</div>
+		<div>
+			<button onclick="div()">DIV</button>
+		</div>
+		
+	</div>
+<!-- JS scripts -->
+<script type="text/javascript">
+	// Declaration of functions
+	function add(){
+				var a = prompt("Enter first number");
+var b = prompt("Enter second number");
+var res;
+res=a+b;
+alert(res);
+	}
+</script>
+<!-- Alternative -->
+<script>
+  var numOne=12, numTwo=10, res;
+  res = numOne + numTwo;
+  document.write("Add = " + res + "<br/>");
+  res = numOne - numTwo;
+  document.write("Subtract = " + res + "<br/>");
+  res = numOne * numTwo;
+  document.write("Multiply = " + res + "<br/>");
+  res = numOne/numTwo;
+  document.write("Divide = " + res + "<br/>");
+</script>
+</body>
+</html>
